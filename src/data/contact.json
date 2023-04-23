@@ -1,0 +1,16 @@
+{
+    "emails": [
+        {
+            "label": "Business",
+            "email": "stefano@smnl.it"
+        },
+        {
+            "label": "EVNT",
+            "email": "stefano@evnt.games"
+        },
+        {
+            "label": "Settings Hunt",
+            "email": "stefano@settingshunt.com"
+        }
+    ]
+}
