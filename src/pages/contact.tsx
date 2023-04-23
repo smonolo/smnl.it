@@ -28,7 +28,10 @@ export default function Contact() {
                             <div className='text-slate-600 text-sm font-medium'>
                                 {label}
                             </div>
-                            <a href={`mailto:${email}`}>
+                            <a
+                                className='w-fit block'
+                                href={`mailto:${email}`}
+                            >
                                 <div className='mt-0.5 text-black font-semibold underline underline-offset-2'>
                                     {email}
                                 </div>
