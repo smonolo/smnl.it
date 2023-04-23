@@ -1,15 +1,21 @@
+import Layout from '@/components/shared/Layout';
+
+import data from '@/data/home.json';
+
 export default function Home() {
+    const linkClass = 'text-black underline underline-offset-2 font-semibold';
+
     return (
-        <div className='px-12 lg:px-52'>
-            <div className='my-24 lg:my-52 max-w-lg'>
+        <Layout>
+            <div className='max-w-lg'>
                 <div className='text-4xl font-serif font-semibold'>
-                    Hi, I'm Stefano!
+                    Hi, I'm Stefano.
                 </div>
-                <div className='mt-5 font-sans text-slate-500 font-medium'>
+                <div className='mt-6 font-sans text-slate-500 font-medium'>
                     <div>
                         I'm a Frontend Engineer at{' '}
                         <a
-                            className='text-black underline underline-offset-2'
+                            className={linkClass}
                             href='https://evnt.games'
                             target='_blank'
                         >
@@ -18,9 +24,9 @@ export default function Home() {
                         , where I'm maintaining and building websites.
                     </div>
                     <div className='mt-5'>
-                        I also work on side projects like{' '}
+                        I'm also working on side projects like{' '}
                         <a
-                            className='text-black underline underline-offset-2'
+                            className={linkClass}
                             href='https://www.settingshunt.com'
                             target='_blank'
                         >
@@ -29,9 +35,9 @@ export default function Home() {
                         .
                     </div>
                     <div className='mt-5'>
-                        This website is under construction. Source code can be found on{' '}
+                        This website is open source. Source code can be found on{' '}
                         <a
-                            className='text-black underline underline-offset-2'
+                            className={linkClass}
                             href='https://github.com/smonolo/smnl.it'
                             target='_blank'
                         >
@@ -40,27 +46,18 @@ export default function Home() {
                         .
                     </div>
                 </div>
-                <div className='mt-5 flex items-center gap-5'>
-                    <a
-                        href='https://twitter.com/stmonolo'
-                        target='_blank'
-                    >
-                        <i className='bi bi-twitter text-lg' />
-                    </a>
-                    <a
-                        href='https://github.com/smonolo'
-                        target='_blank'
-                    >
-                        <i className='bi bi-github text-lg' />
-                    </a>
-                    <a
-                        href='https://www.linkedin.com/in/stemon/'
-                        target='_blank'
-                    >
-                        <i className='bi bi-linkedin text-lg' />
-                    </a>
+                <div className='mt-6 flex items-center gap-5'>
+                    {data.socials.map(social => (
+                        <a
+                            key={social.name}
+                            href={social.url}
+                            target='_blank'
+                        >
+                            <i className={`bi bi-${social.icon} text-lg block transition-transform hover:scale-105`} />
+                        </a>
+                    ))}
                 </div>
             </div>
-        </div>
+        </Layout>
     );
 }

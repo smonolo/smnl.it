@@ -13,4 +13,6 @@
 body {
     background: rgb(var(--background));
     color: rgb(var(--text));
+    min-height: 100vh;
+    position: relative;
 }

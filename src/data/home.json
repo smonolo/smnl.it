@@ -1,0 +1,22 @@
+{
+    "socials": [
+        {
+            "name": "twitter",
+            "displayName": "Twitter",
+            "icon": "twitter",
+            "url": "https://twitter.com/stmonolo"
+        },
+        {
+            "name": "github",
+            "displayName": "GitHub",
+            "icon": "github",
+            "url": "https://github.com/smonolo"
+        },
+        {
+            "name": "linkedin",
+            "displayName": "LinkedIn",
+            "icon": "linkedin",
+            "url": "https://www.linkedin.com/in/stemon/"
+        }
+    ]
+}
