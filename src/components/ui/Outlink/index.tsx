@@ -30,7 +30,7 @@ export default function Outlink(props: OutlinkProps) {
                         transition={{ type: 'tween', duration: 0.2 }}
                     >
                         <i className='bi bi-link' />
-                        {props.href}
+                        {props.href.replace('https://', '')}
                     </motion.div>
                 )}
             </AnimatePresence>
