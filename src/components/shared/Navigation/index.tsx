@@ -12,7 +12,7 @@ export default function Navigation() {
     const dividerClass = 'h-5 w-px bg-slate-200 mx-1';
 
     return (
-        <div className='absolute mx-auto rounded-full inset-x-0 bottom-16 shadow-lg shadow-slate-200 px-4 w-fit backdrop-blur border-solid border border-slate-200'>
+        <div className='fixed mx-auto rounded-full inset-x-0 bottom-16 shadow-lg shadow-slate-200 px-4 w-fit backdrop-blur border-solid border border-slate-200'>
             <div className='flex items-center'>
                 <AnimatePresence>
                     {!isHome && (

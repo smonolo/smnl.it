@@ -1,0 +1,76 @@
+{
+    "featured": [
+        {
+            "name": "evnt",
+            "displayName": "EVNT Games",
+            "position": "Frontend Engineer",
+            "url": "https://evnt.games",
+            "ongoing": true
+        },
+        {
+            "name": "moonsworth",
+            "displayName": "Moonsworth",
+            "position": "Frontend Engineer",
+            "url": "https://www.moonsworth.com"
+        },
+        {
+            "name": "esl",
+            "displayName": "ESL",
+            "position": "Frontend Engineer",
+            "url": "https://www.badlion.net"
+        },
+        {
+            "name": "medal",
+            "displayName": "Top.gg",
+            "position": "Frontend Engineer",
+            "url": "https://top.gg"
+        },
+        {
+            "name": "settingshunt",
+            "displayName": "Settings Hunt",
+            "position": "Co-Founder & Lead Engineer",
+            "url": "https://www.settingshunt.com",
+            "ongoing": true
+        },
+        {
+            "name": "breeng",
+            "displayName": "Breeng",
+            "position": "Co-Founder & CEO",
+            "url": "https://breeng.io"
+        }
+    ],
+    "others": [
+        {
+            "displayName": "FN.Games",
+            "url": "https://fn.games"
+        },
+        {
+            "displayName": "Overcast Community",
+            "url": "https://oc.tc"
+        },
+        {
+            "displayName": "Lunar Client",
+            "url": "https://www.lunarclient.com"
+        },
+        {
+            "displayName": "MCStats Skins",
+            "url": "https://skins.mcstats.com"
+        },
+        {
+            "displayName": "Badlion Store",
+            "url": "https://store.badlion.net"
+        },
+        {
+            "displayName": "MarKz3D",
+            "url": "https://www.markz3d.com"
+        },
+        {
+            "displayName": "Studio Tecnico EmmeDì",
+            "url": "https://www.studiotecnicoemmedi.it"
+        },
+        {
+            "displayName": "GyllieBot",
+            "url": "https://gylliebot.net"
+        }
+    ]
+}
