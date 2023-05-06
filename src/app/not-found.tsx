@@ -4,7 +4,7 @@ import Title from "@/components/ui/Title";
 import Button from "@/components/ui/Button";
 import Text from "@/components/ui/Text";
 
-export default function NotFound() {
+export default function Error() {
     return (
         <div className='max-w-lg'>
             <Title>Ouch, you're lost!</Title>
