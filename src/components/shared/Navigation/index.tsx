@@ -1,13 +1,15 @@
+'use client';
+
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
 
 import data from '@/data/shared/navigation.json';
 import homeData from '@/data/home.json';
 
 export default function Navigation() {
-    const router = useRouter();
-    const isHome = router.asPath === '/';
+    const pathname = usePathname();
+    const isHome = pathname === '/';
     const itemClass = 'px-2.5 py-2 text-sm font-medium hover:text-black transition-colors';
     const dividerClass = 'h-5 w-px bg-slate-200 mx-1';
 
@@ -45,7 +47,7 @@ export default function Navigation() {
                         key={index}
                         href={item.url}
                     >
-                        <div className={itemClass + (router.asPath === item.url ? ' text-black' : ' text-slate-600')}>
+                        <div className={itemClass + (pathname === item.url ? ' text-black' : ' text-slate-600')}>
                             {item.text}
                         </div>
                     </Link>

@@ -1,3 +1,5 @@
+'use client';
+
 import { ButtonProps } from "./types";
 
 export default function Button(props: ButtonProps) {

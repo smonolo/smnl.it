@@ -1,4 +1,3 @@
-import Layout from "@/components/shared/Layout";
 import Text from "@/components/ui/Text";
 import Title from "@/components/ui/Title";
 
@@ -8,7 +7,7 @@ export default function Work() {
     const { featured, others } = data;
 
     return (
-        <Layout>
+        <>
             <div className='max-w-lg'>
                 <Title>Businesses and projects.</Title>
                 <div className='mt-6'>
@@ -67,6 +66,6 @@ export default function Work() {
                     </div>
                 ))}
             </div>
-        </Layout>
+        </>
     );
 }

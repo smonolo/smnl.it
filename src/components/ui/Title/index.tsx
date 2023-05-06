@@ -1,3 +1,5 @@
+'use client';
+
 import { TitleProps } from "./types";
 
 export default function Title(props: TitleProps) {

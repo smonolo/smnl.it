@@ -1,3 +1,5 @@
+'use client';
+
 import { TextProps } from "./types";
 
 export default function Text(props: TextProps) {
