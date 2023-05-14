@@ -34,7 +34,7 @@ export default function Home() {
                         href={social.url}
                         target='_blank'
                     >
-                        <i className={`bi bi-${social.icon} text-lg block transition-transform hover:scale-105`} />
+                        <i className={`bi bi-${social.icon} text-lg text-slate-200 block transition-transform hover:scale-105`} />
                     </a>
                 ))}
             </div>

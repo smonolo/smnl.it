@@ -27,18 +27,18 @@ export default function Work() {
                 {featured.map((item, index) => (
                     <div key={index}>
                         <div className='flex items-center gap-2'>
-                            <div className='font-semibold'>{item.displayName}</div>
+                            <div className='font-semibold text-slate-200'>{item.displayName}</div>
                             {item.ongoing && (
-                                <div className='text-xs bg-green-200 py-0.5 px-1.5 text-green-700 rounded-md font-medium box-border uppercase'>
+                                <div className='text-[10px] bg-green-950 py-0.5 px-1.5 text-green-600 rounded font-medium box-border uppercase'>
                                     Ongoing
                                 </div>
                             )}
                         </div>
-                        <div className='mt-2 text-sm text-slate-600'>
+                        <div className='mt-2 text-sm text-slate-400'>
                             {item.position}
                         </div>
                         <a
-                            className='mt-3.5 text-sm text-slate-600 font-medium block w-fit'
+                            className='mt-3.5 text-sm text-slate-500 font-medium block w-fit'
                             href={item.url}
                             target='_blank'
                         >
@@ -51,13 +51,13 @@ export default function Work() {
                 {others.map((item, index) => (
                     <div
                         key={index}
-                        className='border-b box-border border-slate-200 py-3 flex items-center justify-between gap-3'
+                        className='border-b box-border border-slate-800 py-3 flex items-center justify-between gap-3'
                     >
-                        <div className='text-sm font-medium'>
+                        <div className='text-sm font-medium text-slate-200'>
                             {item.displayName}
                         </div>
                         <a
-                            className='text-sm text-slate-600 font-medium block w-fit'
+                            className='text-sm text-slate-500 font-medium block w-fit'
                             href={item.url}
                             target='_blank'
                         >

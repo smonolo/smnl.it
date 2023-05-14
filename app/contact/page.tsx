@@ -21,16 +21,16 @@ export default function Contact() {
                 {data.emails.map(({ label, email }, index) => (
                     <div
                         key={index}
-                        className='border-solid border-b py-4'
+                        className='border-solid border-b py-4 border-slate-800'
                     >
-                        <div className='text-slate-600 text-sm font-medium'>
+                        <div className='text-slate-500 text-sm font-medium'>
                             {label}
                         </div>
                         <a
                             className='w-fit block'
                             href={`mailto:${email}`}
                         >
-                            <div className='mt-0.5 text-black font-semibold underline underline-offset-2'>
+                            <div className='mt-0.5 text-slate-200 font-semibold underline underline-offset-2'>
                                 {email}
                             </div>
                         </a>

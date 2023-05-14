@@ -15,7 +15,7 @@ export default function Outlink(props: OutlinkProps) {
             onMouseOut={() => setShowTooltip(false)}
         >
             <a
-                className='text-black underline underline-offset-2 font-semibold'
+                className='text-slate-200 underline underline-offset-2 font-semibold'
                 href={props.href}
                 target='_blank'
             >
