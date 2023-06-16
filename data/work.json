@@ -41,6 +41,10 @@
     ],
     "others": [
         {
+            "displayName": "OpenWater",
+            "url": "https://openwaterapp.com"
+        },
+        {
             "displayName": "FN.Games",
             "url": "https://fn.games"
         },
