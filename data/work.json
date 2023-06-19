@@ -33,16 +33,17 @@
             "ongoing": true
         },
         {
-            "name": "breeng",
-            "displayName": "Breeng",
-            "position": "Co-Founder & CEO",
-            "url": "https://breeng.io"
+            "name": "openwater",
+            "displayName": "OpenWater",
+            "position": "Founder & Lead Engineer",
+            "url": "https://openwaterapp.com",
+            "ongoing": true
         }
     ],
     "others": [
         {
-            "displayName": "OpenWater",
-            "url": "https://openwaterapp.com"
+            "displayName": "Breeng",
+            "url": "https://breeng.io"
         },
         {
             "displayName": "FN.Games",

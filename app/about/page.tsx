@@ -22,9 +22,11 @@ export default function About() {
                         {' '}in the past.
                     </div>
                     <div className='mt-5'>
-                        I'm also working on a few side projects like {' '}
+                        I'm also working on a few side projects like{' '}
                         <Outlink href='https://www.settingshunt.com'>Settings Hunt</Outlink>
-                        , a place for gamers to share and download the best game settings.
+                        , a place for gamers to share and download the best game setting, and{' '}
+                        <Outlink href='https://openwaterapp.com'>OpenWater</Outlink>
+                        , an open water swimming events listing app.
                     </div>
                     <div className='mt-5'>
                         I'm experienced building scalable dashboards, utility and

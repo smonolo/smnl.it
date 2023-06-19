@@ -18,6 +18,8 @@ export default function Home() {
                     <div className='mt-5'>
                         I'm also working on side projects like{' '}
                         <Outlink href='https://www.settingshunt.com'>Settings Hunt</Outlink>
+                        {' '}and{' '}
+                        <Outlink href='https://openwaterapp.com'>OpenWater</Outlink>
                         .
                     </div>
                     <div className='mt-5'>
