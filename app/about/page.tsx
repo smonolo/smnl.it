@@ -10,7 +10,7 @@ export default function About() {
                 <Text>
                     <div>
                         I'm working at{' '}
-                        <Outlink href='https://evnt.games'>EVNT</Outlink>
+                        <Outlink href='https://www.kampaay.com'>Kampaay</Outlink>
                         , maintaining and building websites and web applications for
                         one of the fastest-growing events organization company.
                         I've also worked at{' '}

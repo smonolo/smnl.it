@@ -11,8 +11,8 @@ export default function Home() {
             <div className='mt-6'>
                 <Text>
                     <div>
-                        I'm a Frontend Engineer at{' '}
-                        <Outlink href='https://evnt.games'>EVNT</Outlink>
+                        I'm a Frontend Developer at{' '}
+                        <Outlink href='https://www.kampaay.com'>Kampaay</Outlink>
                         , where I'm maintaining and building websites.
                     </div>
                     <div className='mt-5'>

@@ -1,6 +1,13 @@
 {
     "featured": [
         {
+            "name": "kampaay",
+            "displayName": "Kampaay",
+            "position": "Frontend Developer",
+            "url": "https://www.kampaay.com",
+            "ongoing": true
+        },
+        {
             "name": "evnt",
             "displayName": "EVNT Games",
             "position": "Frontend Engineer",

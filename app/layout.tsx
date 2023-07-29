@@ -7,7 +7,7 @@ import Analytics from '@/components/shared/Analytics';
 import '@/styles/globals.css';
 
 const title = 'I\'m Stefano';
-const description = 'Hi, I\'m Stefano. I\'m a Frontend Engineer at EVNT, also working on a few side projects like Settings Hunt.';
+const description = 'Hi, I\'m Stefano. I\'m a Frontend Developer at Kampaay, also working on a few side projects';
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://smnl.it'),
