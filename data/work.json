@@ -10,26 +10,26 @@
         {
             "name": "evnt",
             "displayName": "EVNT Games",
-            "position": "Frontend Engineer",
+            "position": "Frontend Developer",
             "url": "https://evnt.games",
             "ongoing": true
         },
         {
             "name": "moonsworth",
             "displayName": "Moonsworth",
-            "position": "Frontend Engineer",
+            "position": "Frontend Developer",
             "url": "https://www.moonsworth.com"
         },
         {
             "name": "esl",
             "displayName": "ESL",
-            "position": "Frontend Engineer",
+            "position": "Frontend Developer",
             "url": "https://www.badlion.net"
         },
         {
             "name": "medal",
             "displayName": "Top.gg",
-            "position": "Frontend Engineer",
+            "position": "Product Engineer",
             "url": "https://top.gg"
         },
         {
